@@ -1,0 +1,33 @@
+.marker {
+  transition: transform 0.2s;
+}
+
+.marker:hover {
+  transform: scale(1.1);
+  z-index: 1000;
+}
+
+.poi-marker {
+  transition: transform 0.2s;
+}
+
+.poi-marker:hover {
+  transform: scale(1.2);
+  z-index: 1000;
+}
+
+/* Стили для попапов */
+.maplibregl-popup {
+  max-width: 300px;
+}
+
+.maplibregl-popup-content {
+  padding: 12px !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2) !important;
+}
+
+.maplibregl-popup-close-button {
+  font-size: 16px !important;
+  padding: 4px 8px !important;
+}
